@@ -24,7 +24,7 @@
                     break;
                 case 3:
                     double result = numA / numB;
-                    Console.WriteLine($"A divisão é {result}");
+                    Console.WriteLine($"A divisão é {result.ToString("0.00")}");
                     break;
                 case 4:
                     Console.WriteLine($"A multiplicação é {numA * numB}");
