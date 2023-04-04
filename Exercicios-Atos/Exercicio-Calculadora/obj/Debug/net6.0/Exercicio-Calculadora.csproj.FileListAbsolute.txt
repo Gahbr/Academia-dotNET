@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\bin\Debug\net6.0\Exercicio-Calculadora.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\bin\Debug\net6.0\Exercicio-Calculadora.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\bin\Debug\net6.0\Exercicio-Calculadora.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\bin\Debug\net6.0\Exercicio-Calculadora.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\bin\Debug\net6.0\Exercicio-Calculadora.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\refint\Exercicio-Calculadora.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\Exercicio-Calculadora.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Calculadora\obj\Debug\net6.0\ref\Exercicio-Calculadora.dll
