@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\bin\Debug\net6.0\Exercicio-Triangulo.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\bin\Debug\net6.0\Exercicio-Triangulo.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\bin\Debug\net6.0\Exercicio-Triangulo.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\bin\Debug\net6.0\Exercicio-Triangulo.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\bin\Debug\net6.0\Exercicio-Triangulo.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\refint\Exercicio-Triangulo.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\Exercicio-Triangulo.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Triangulo\obj\Debug\net6.0\ref\Exercicio-Triangulo.dll

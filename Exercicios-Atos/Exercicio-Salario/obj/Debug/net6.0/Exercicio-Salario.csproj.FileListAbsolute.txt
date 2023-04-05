@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\bin\Debug\net6.0\Exercicio-Salario.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\bin\Debug\net6.0\Exercicio-Salario.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\bin\Debug\net6.0\Exercicio-Salario.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\bin\Debug\net6.0\Exercicio-Salario.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\bin\Debug\net6.0\Exercicio-Salario.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\refint\Exercicio-Salario.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\Exercicio-Salario.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Salario\obj\Debug\net6.0\ref\Exercicio-Salario.dll
