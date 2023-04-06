@@ -98,7 +98,6 @@ namespace Exercicio_21
                         case 4: // pes
                             Console.WriteLine(valorSaida = valorEntrada)  ;
                             break;
-
                     }
                     break;
             }
