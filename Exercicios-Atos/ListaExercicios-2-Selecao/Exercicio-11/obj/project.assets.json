@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programação\\CSharp\\EstudosC#\\Exercicios-Atos\\ListaExercicios-2-Selecao\\Exercicio-10\\ExercicioFinal.csproj",
-      "projectName": "ExercicioFinal",
-      "projectPath": "D:\\Programação\\CSharp\\EstudosC#\\Exercicios-Atos\\ListaExercicios-2-Selecao\\Exercicio-10\\ExercicioFinal.csproj",
+      "projectUniqueName": "D:\\Programação\\CSharp\\EstudosC#\\Exercicios-Atos\\ListaExercicios-2-Selecao\\Exercicio-11\\Exercicio-11.csproj",
+      "projectName": "Exercicio-11",
+      "projectPath": "D:\\Programação\\CSharp\\EstudosC#\\Exercicios-Atos\\ListaExercicios-2-Selecao\\Exercicio-11\\Exercicio-11.csproj",
       "packagesPath": "C:\\Users\\thefl\\.nuget\\packages\\",
-      "outputPath": "D:\\Programação\\CSharp\\EstudosC#\\Exercicios-Atos\\ListaExercicios-2-Selecao\\Exercicio-10\\obj\\",
+      "outputPath": "D:\\Programação\\CSharp\\EstudosC#\\Exercicios-Atos\\ListaExercicios-2-Selecao\\Exercicio-11\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\thefl\\AppData\\Roaming\\NuGet\\NuGet.Config",
