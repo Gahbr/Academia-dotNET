@@ -17,7 +17,7 @@
             if (sexo == "M")
             {
                 double calculo = (72.7 * altura) - 58;
-                Console.WriteLine($"Seu peso ideal é {calculo}kg" );
+                Console.WriteLine($"Seu peso ideal é {calculo.ToString("0.00")}kg" );
             } else if (sexo == "F")
             {
                 double calculo = (62.1 * altura) - 44.7;
