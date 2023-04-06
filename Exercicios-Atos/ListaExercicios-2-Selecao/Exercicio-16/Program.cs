@@ -33,7 +33,6 @@ namespace Exercicio_16
 
                 int timeCasa2 = int.Parse(substring[0]);
                 int timeFora2 = int.Parse(substring[1]);
-
             
                 if (timeCasa > timeFora)
                 {

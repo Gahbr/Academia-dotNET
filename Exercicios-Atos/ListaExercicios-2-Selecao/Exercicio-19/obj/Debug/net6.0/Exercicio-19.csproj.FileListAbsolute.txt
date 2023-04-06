@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\bin\Debug\net6.0\Exercicio-19.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\bin\Debug\net6.0\Exercicio-19.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\bin\Debug\net6.0\Exercicio-19.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\bin\Debug\net6.0\Exercicio-19.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\bin\Debug\net6.0\Exercicio-19.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\refint\Exercicio-19.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\Exercicio-19.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-19\obj\Debug\net6.0\ref\Exercicio-19.dll
