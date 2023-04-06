@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\bin\Debug\net6.0\Exercicio-Media4Valores.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\bin\Debug\net6.0\Exercicio-Media4Valores.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\bin\Debug\net6.0\Exercicio-Media4Valores.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\bin\Debug\net6.0\Exercicio-Media4Valores.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\bin\Debug\net6.0\Exercicio-Media4Valores.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\refint\Exercicio-Media4Valores.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\Exercicio-Media4Valores.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\Exercicio-Media4Valores\obj\Debug\net6.0\ref\Exercicio-Media4Valores.dll
