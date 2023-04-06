@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\bin\Debug\net6.0\Exercicio-9.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\bin\Debug\net6.0\Exercicio-9.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\bin\Debug\net6.0\Exercicio-9.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\bin\Debug\net6.0\Exercicio-9.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\bin\Debug\net6.0\Exercicio-9.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\refint\Exercicio-9.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\Exercicio-9.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-2-Selecao\Exercicio-9\obj\Debug\net6.0\ref\Exercicio-9.dll

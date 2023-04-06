@@ -9,26 +9,33 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Insira o salário:");
-            double salario = double.Parse(Console.ReadLine());
+            Console.WriteLine("Insira o código do funcionário:");
+            int cod = int.Parse(Console.ReadLine());
 
-            if (salario <= 900)
+            Console.WriteLine("Insira o nome:");
+            string nome = Console.ReadLine();
+
+            Console.WriteLine("Insira o salário base:");
+            double salario = double.Parse(Console.ReadLine());
+            double salarioFinal, bonus;
+
+            Console.WriteLine("Insira o total de vendas em $:");
+            double vendas = double.Parse(Console.ReadLine());
+
+            if (vendas > 500 && vendas <=1000)
             {
-                double taxa = 0.05 * salario;
-                double novoSalario = +taxa;
-                Console.WriteLine($"Salário = ${salario} - Taxa de aumento = {5}% - Novo salário ${salario + novoSalario}");
+                salarioFinal = salario + ((vendas * 105) / 100);
+                Console.WriteLine($"SalárioFinal = ${salarioFinal}");
             }
-            else if (salario > 900 && salario < 1400)
+            else if (vendas > 1000 && vendas <= 5000)
             {
-                double taxa = 0.08 * salario;
-                double novoSalario = +taxa;
-                Console.WriteLine($"Salário = ${salario} - Taxa de aumento = {8}% - Novo salário ${salario + novoSalario}");
+                salarioFinal = salario + ((vendas * 107) / 100);
+                Console.WriteLine($"SalárioFinal = ${salarioFinal}");
             }
-            else if (salario > 1400)
+            else if (vendas > 5000)
             {
-                double taxa = 0.10 * salario;
-                double novoSalario = +taxa;
-                Console.WriteLine($"Salário = ${salario} - Taxa de aumento = {10}% - Novo salário ${salario + novoSalario}");
+                salarioFinal = salario + ((vendas * 110) / 100);
+                Console.WriteLine($"SalárioFinal = ${salarioFinal}");
             }
         }
     }
