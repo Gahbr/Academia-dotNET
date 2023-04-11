@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            Ex6.Ex06();
+            Exe10.Ex10();
         }
     }
 }
