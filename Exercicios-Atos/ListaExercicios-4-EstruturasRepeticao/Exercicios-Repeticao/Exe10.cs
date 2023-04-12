@@ -47,9 +47,6 @@ namespace Exercicios_Repeticao
                         mediaMulheres += idade;
                         mulheres++;
                     }
-
-                   
-                   
                 }
 
                 Console.WriteLine($"Número de pessoas do sexo masculino: {homens}.\r\n//Número de pessoas do sexo feminino: {mulheres}\r\n//Número de pessoas com idade inferior a 30 anos: {idadeA} pessoas\r\n//Número de pessoas com idade superior a 60 anos: {idadeB} pessoas\r\nMédia de idade das mulheres: {mediaMulheres / Convert.ToDouble(mulheres)} anos");
