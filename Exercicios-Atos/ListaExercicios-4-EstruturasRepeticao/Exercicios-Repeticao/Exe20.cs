@@ -49,7 +49,7 @@ namespace Exercicios_Repeticao
                 
             }
             Console.WriteLine($"o habitante mais velho tem {idades.Max()} anos");
-            Console.WriteLine("a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive\r\n//e que tenham olhos verdes e cabelos louros. é de :" + grupoMulheres + "mulheres");
+            Console.WriteLine("a quantidade de indivíduos do sexo feminino cuja idade está entre 18 e 35 anos inclusive\r\n//e que tenham olhos verdes e cabelos louros. é de :" + grupoMulheres + " mulheres");
 
         }
     }

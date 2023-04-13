@@ -1,0 +1,15 @@
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\bin\Debug\net6.0\ListaExercicios-5-Vetores.exe
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\bin\Debug\net6.0\ListaExercicios-5-Vetores.deps.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\bin\Debug\net6.0\ListaExercicios-5-Vetores.runtimeconfig.json
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\bin\Debug\net6.0\ListaExercicios-5-Vetores.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\bin\Debug\net6.0\ListaExercicios-5-Vetores.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.csproj.AssemblyReference.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.AssemblyInfoInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.AssemblyInfo.cs
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\refint\ListaExercicios-5-Vetores.dll
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.pdb
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ListaExercicios-5-Vetores.genruntimeconfig.cache
+D:\Programação\CSharp\EstudosC#\Exercicios-Atos\ListaExercicios-5-Vetores\obj\Debug\net6.0\ref\ListaExercicios-5-Vetores.dll
