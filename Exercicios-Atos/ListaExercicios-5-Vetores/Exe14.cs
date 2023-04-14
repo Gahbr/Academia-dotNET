@@ -6,7 +6,7 @@ namespace ListaExercicios_5_Vetores
     {
         public static void Ex()
         {
-            int[] arr = new int[5];
+            int[] arr = new int[50];
             int cod;
 
             Console.WriteLine($"Insira um código : \n0 - terminar algoritmo\n1 - vetor ordenado\n2 - vetor inverso");
