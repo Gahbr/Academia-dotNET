@@ -14,12 +14,12 @@ namespace ListaExercicios_5_Vetores
                 Console.WriteLine("Insira um número");
                 vetor[i] = int.Parse(Console.ReadLine());
             }
-            
+            vetorOrdenado = vetor;
             Array.Sort(vetorOrdenado);
 
             for (int i = 0; i < vetor.Length ; i++)
             {
-                Console.WriteLine($"Array[{i}] = {vetor[i]}");
+                Console.WriteLine($"Array[{i}] = {vetorOrdenado[i]}");
             }
         }
 
