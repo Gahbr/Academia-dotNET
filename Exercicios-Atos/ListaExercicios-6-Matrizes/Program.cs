@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Ex3.Ex();
+            Ex8.Ex();
         }
     }
 }
