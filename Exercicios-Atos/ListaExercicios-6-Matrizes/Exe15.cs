@@ -1,30 +1,31 @@
-﻿//5) Leia duas matrizes 2x3 de números double. 
-//Imprima a soma destas duas matrizes.
+﻿//15) Escreva um programa em C# para ler os valores e somar duas matrizes 4 x 4. Mostrar a matriz resultante.
 
 namespace ListaExercicios_6_Matrizes
 {
-    internal class Ex5
+    internal class Exe15
     {
         public static void Ex()
         {
-            Random random = new Random();
-            double[,] matriz = new double[2, 3];
-            double[,] matriz2 = new double[2, 3];
-            double[,] soma = new double[2, 3];
+            int[,] matriz = new int[4,4];
+            int[,] matriz2 = new int[4,4];
+            int[,] soma = new int[4, 4];
 
             for (int i = 0; i < matriz.GetLength(0); i++)
             {
-                matriz[i, 0] = Math.Round(random.NextDouble() * 10.0, 2);
-                matriz[i, 1] = Math.Round(random.NextDouble() * 10.0, 2);
-                matriz[i, 2] = Math.Round(random.NextDouble() * 10.0, 2);
+                matriz[i, 0] = Random.Shared.Next(10) + 1;
+                matriz[i, 1] = Random.Shared.Next(10) + 1;
+                matriz[i, 2] = Random.Shared.Next(10) + 1;
+                matriz[i, 3] = Random.Shared.Next(10) + 1;
 
-                matriz2[i, 0] = Math.Round(random.NextDouble() * 10.0, 2);
-                matriz2[i, 1] = Math.Round(random.NextDouble() * 10.0, 2);
-                matriz2[i, 2] = Math.Round(random.NextDouble() * 10.0, 2);
+                matriz2[i, 0] = Random.Shared.Next(10) + 1;
+                matriz2[i, 1] = Random.Shared.Next(10) + 1;
+                matriz2[i, 2] = Random.Shared.Next(10) + 1;
+                matriz2[i, 3] = Random.Shared.Next(10) + 1;
 
                 soma[i, 0] = matriz[i, 0] + matriz2[i, 0];
                 soma[i, 1] = matriz[i, 1] + matriz2[i, 1];
                 soma[i, 2] = matriz[i, 2] + matriz2[i, 2];
+                soma[i, 3] = matriz[i, 3] + matriz2[i, 3];
             }
 
             Console.WriteLine("--Matriz 1--");
