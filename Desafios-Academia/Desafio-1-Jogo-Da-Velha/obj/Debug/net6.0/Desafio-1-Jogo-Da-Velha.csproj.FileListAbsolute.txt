@@ -1,0 +1,15 @@
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\bin\Debug\net6.0\Desafio-1-Jogo-Da-Velha.exe
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\bin\Debug\net6.0\Desafio-1-Jogo-Da-Velha.deps.json
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\bin\Debug\net6.0\Desafio-1-Jogo-Da-Velha.runtimeconfig.json
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\bin\Debug\net6.0\Desafio-1-Jogo-Da-Velha.dll
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\bin\Debug\net6.0\Desafio-1-Jogo-Da-Velha.pdb
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.csproj.AssemblyReference.cache
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.AssemblyInfoInputs.cache
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.AssemblyInfo.cs
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.dll
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\refint\Desafio-1-Jogo-Da-Velha.dll
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.pdb
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\Desafio-1-Jogo-Da-Velha.genruntimeconfig.cache
+D:\Programação\CSharp\Academia-dotNET\Desafios-Academia\Desafio-1-Jogo-Da-Velha\obj\Debug\net6.0\ref\Desafio-1-Jogo-Da-Velha.dll
