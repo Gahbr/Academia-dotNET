@@ -1,15 +1,21 @@
+body {
+  font-family: cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 header {
     width: 100%;
     border-radius: 1rem;
     background-color: #333;
-    
   }
+
   .img{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 50px;
-    
   }
 
   nav {
@@ -40,21 +46,6 @@ header {
     background-color: #555;
   }
   
-  .footer{
-    display: flex;
-    background-color: #333;
-    border-radius: 2rem;
-    justify-content: center;
-
-  }
-
-  .footer a {
-    color: #fff;
-    display: block;
-    padding: 10px;
-    text-decoration: none;
-  }
-
   .container{
     background-color: #222;
     border-radius: 0.5rem;
@@ -64,7 +55,12 @@ header {
     padding-bottom: 100px;
     padding-top: 100px;
     color: #fff;
-   
+  }
+
+  table{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 30px;
   }
 
   table td,th {
@@ -75,4 +71,35 @@ header {
     padding: 10px;
     text-align: left;
   }
-  tr:nth-child(even) {background-color: #f2f2f2;}
+
+  tr:nth-child(even){
+    background-color: #f2f2f2;
+  }
+
+  input, select{
+    border-radius: 0.5rem;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  textarea{
+    border-radius: 0.5rem;
+    resize: none;
+  }
+
+  .footer{
+    display: flex;
+    background-color: #333;
+    border-radius: 2rem;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 10px;
+  }
+
+  .footer a {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
