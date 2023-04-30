@@ -13,3 +13,6 @@ Além disso, faça aplicação de estilos em elementos utilizando ID. Utilize di
 Busque uma interface agradável aos olhos do usuário.
 
 Na elaboração das páginas, utilize as tags que possuem ênfase na melhora do SEO do site proposto.
+
+# Design
+![design](https://user-images.githubusercontent.com/80289718/235372018-291665ce-fda1-4d04-8619-8f647a699241.png)
