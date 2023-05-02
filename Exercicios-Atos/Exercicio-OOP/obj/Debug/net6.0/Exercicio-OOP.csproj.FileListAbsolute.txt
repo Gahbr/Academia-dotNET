@@ -1,0 +1,15 @@
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\bin\Debug\net6.0\Exercicio-OOP.exe
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\bin\Debug\net6.0\Exercicio-OOP.deps.json
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\bin\Debug\net6.0\Exercicio-OOP.runtimeconfig.json
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\bin\Debug\net6.0\Exercicio-OOP.dll
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\bin\Debug\net6.0\Exercicio-OOP.pdb
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.csproj.AssemblyReference.cache
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.AssemblyInfoInputs.cache
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.AssemblyInfo.cs
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.csproj.CoreCompileInputs.cache
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.dll
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\refint\Exercicio-OOP.dll
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.pdb
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\Exercicio-OOP.genruntimeconfig.cache
+D:\Programação\CSharp\Academia-dotNET\Exercicios-Atos\Exercicio-OOP\obj\Debug\net6.0\ref\Exercicio-OOP.dll

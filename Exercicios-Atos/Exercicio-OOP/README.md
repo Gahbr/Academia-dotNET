@@ -1,0 +1,10 @@
+1 - Crie uma classe chamada Carro que possua 3 atributos: marca, modelo e anoFabricacao. Além disso, na main crie 2 objetos do tipo Carro e exiba na tela os valores dos atributos criados. Esses valores devem ser solicitados ao usuário, por linha de execução.
+
+2 - Crie uma classe chamada Computador que possua 4 atributos: marca, modelo, tipo (notebook, netbook, tablet, etc) e preço. Crie dois objetos onde o primeiro objeto deverá ser criado através da solicitação dos valores ao usuário por linha de execução. Já, os valores do segundo objeto, deverão ser definidos no código-fonte da classe que o criou. Exiba na tela os resultados.
+
+3 - Criar uma classe chamada Pessoa com 2 construtores, um que receba o nome e a idade da pessoa e outro recebendo apenas a idade. Solicite ao usuário qual dos construtores ele gostaria de utilizar na instanciação da classe. Além de receber parâmetros, os construtores imprimem na tela o conteúdo dos parâmetros recebidos.
+
+4 - Criar uma classe chamada Aluno com 3 construtores, sendo que o primeiro recebe o nome e a matrícula do aluno, o segundo recebe apenas a data de nascimento do aluno e o terceiro construtor recebe o nome do aluno, a data de nascimento e o ano em que o aluno ingressou na faculdade. Crie uma classe principal, com 3 objetos, cada um instanciando a classe com
+um construtor diferente.
+
+5 - Crie uma classe ContaCorrente que obedeça à descrição abaixo: A classe possui o atributo saldo do tipo double e os métodos definirSaldoInicial, depositar e sacar. O método definirSaldoInicial deve atribuir o valor passado por parâmetro ao atribuito saldo O método depositar, deve adicionar o valor passado por parâmetro ao atributo saldo O método sacar deve reduzir o valor passado por parâmetro do saldo já existente Necessário verificar a condição de o valor do saldo ser insuficiente para o saque que se deseja fazer. O valor de retorno deve ser true (verdadeiro) quando for possível realizar o saque e false (falso) quando não for possível
