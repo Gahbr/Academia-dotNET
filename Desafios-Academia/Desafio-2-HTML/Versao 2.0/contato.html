@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="./assets/styles/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="index.html"> <img class="navbar-logo" alt="logo" src="./assets/images/logo.png" /></a>
+  </nav>
+
+  <button class="navbar-burger" onclick="toggleMenu()" aria-label="burger"></button>
+
+  <nav class="menu">
+    <a href="index.html" style="animation-delay: 0.1s">Home</a>
+    <a href="sobre.html" style="animation-delay: 0.2s">Sobre</a>
+    <a href="contato.html" style="animation-delay: 0.3s">Contato</a>
+    <a href="galeria.html" style="animation-delay: 0.4s">Galeria</a>
+  </nav>
+  <section>
+    <h2>Sobre</h2>
+
+    <form action="./formulario-enviado.html" method="">
+      <h1>Formulário para contato</h1>
+      <label for="nomeCompleto">Nome: </label><br>
+      <input type="text" name="nomeCompleto" id="nomeCompleto" required /> <br />
+
+      <label for="email">E-mail: </label><br>
+      <input type="email" id="email" name="email" required /> <br />
+
+      <label for="sexo">Sexo:</label><br>
+      <select name="sexo" id="sexo">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+      </select> <br />
+
+      <label for="telefone">Telefone: </label><br>
+      <input type="tel" id="telefone" name="telefone" /> <br />
+
+      <label for="mensagem">Mensagem: </label> <br />
+      <textarea id="mensagem" name="mensagem" rows="5" cols="50" required></textarea> <br />
+
+      <button type="submit" id="btn">Enviar</button>
+      <button type="reset" id="btn">Limpar</button> <br />
+    </form>
+  </section>
+  <br>
+
+  <div class="banner3"></div>
+
+  <footer class="footer">
+    <a aria-label="github" href="https://github.com/Gahbr">Desenvolvido por Gabriel Ribeiro <a
+        href="https://www.linkedin.com/in/gabriellribeiro1/" aria-label="linkedin"><img
+          src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" width="25px" alt="linkedin logo" /></a></a>
+  </footer>
+
+  <script type="text/javascript">
+    const toggleMenu = () => {
+      document.body.classList.toggle("open");
+    };
+  </script>
+</body>
+
+</html>

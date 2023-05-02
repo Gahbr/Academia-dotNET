@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Bem-vindo à galeria de fotos da Nuka-Cola, a bebida mais icônica e refrescante do mundo pós-apocalíptico! Aqui, você pode conferir uma coleção de imagens que retratam a história e o legado da marca. ">
+  <title>Galeria</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="./assets/styles/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="index.html"> <img class="navbar-logo" alt="logo" src="./assets/images/logo.png" /></a>
+  </nav>
+
+  <button class="navbar-burger" onclick="toggleMenu()" aria-label="burger"></button>
+
+  <nav class="menu">
+    <a href="index.html" style="animation-delay: 0.1s">Home</a>
+    <a href="sobre.html" style="animation-delay: 0.2s">Sobre</a>
+    <a href="contato.html" style="animation-delay: 0.3s">Contato</a>
+    <a href="galeria.html" style="animation-delay: 0.4s">Galeria</a>
+  </nav>
+  <main>
+    <h2>Galeria</h1>
+      <h1 style="margin-top: 50px; text-align: center;">Galeria</h1>
+
+      <div class="grid">
+        <div><img src="assets/images/nuka-ad5.jpg" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-girl-2.jpg" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-girl.jpeg" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-logo.png" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-ad1.jpeg" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-ad2.webp" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-ad3.jpg" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-ad4.jpg" alt="Anuncio da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/nuka-garrafa.jpg" alt="Garrafa da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/cherry-garrafa.jpeg" alt="Garrafa da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/quantum-garrafa.jpeg" alt="Garrafa da Nuka cola" class="galery-image"></div>
+        <div><img src="assets/images/victory-garrafa.jpeg" alt="Garrafa da Nuka cola" class="galery-image"></div>
+      </div>
+  </main>
+  <br>
+
+  <footer class="footer">
+    <a aria-label="github" href="https://github.com/Gahbr">Desenvolvido por Gabriel Ribeiro <a
+        href="https://www.linkedin.com/in/gabriellribeiro1/" aria-label="linkedin"><img
+          src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" width="25px" alt="linkedin logo" /></a></a>
+  </footer>
+
+  <script type="text/javascript">
+    const toggleMenu = () => {
+      document.body.classList.toggle("open");
+    };
+  </script>
+</body>
+
+</html>

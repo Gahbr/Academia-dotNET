@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="O objetivo deste site é fornecer aos fãs da marca Nuka Cola um lugar para encontrar informações, curiosidades e novidades sobre seus sabores favoritos de refrigerante. ">
+  <title>Sobre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link href="./assets/styles/styles.css" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+</head>
+
+<body>
+  <nav class="navbar">
+    <a href="index.html"> <img class="navbar-logo" src="./assets/images/logo.png" alt="logo" /></a>
+  </nav>
+
+  <button class="navbar-burger" onclick="toggleMenu()" aria-label="burger"></button>
+
+  <nav class="menu">
+    <a href="index.html" style="animation-delay: 0.1s">Home</a>
+    <a href="sobre.html" style="animation-delay: 0.2s">Sobre</a>
+    <a href="contato.html" style="animation-delay: 0.3s">Contato</a>
+    <a href="galeria.html" style="animation-delay: 0.4s">Galeria</a>
+  </nav>
+  <section>
+    <h2 style=" display:flex; justify-content: center; position: relative;"> Sobre</h2>
+
+    <h2>Sobre</h2>
+
+    <p>
+      Este site foi criado por Gabriel Ribeiro, um aluno da Academia .NET ATOS em parceria com a Universidade
+      Franciscana - UFN.
+    </p>
+    <p>
+      O objetivo deste site é fornecer aos fãs da marca Nuka Cola um lugar para encontrar informações, curiosidades e
+      novidades sobre seus sabores favoritos de refrigerante. Além disso, este site também tem como objetivo ajudar os
+      fãs a conhecerem melhor a história por trás da marca Nuka Cola, desde sua fundação em 2044 até sua ascensão como a
+      bebida mais popular do mundo pós-apocalíptico de Fallout.
+    </p>
+
+    <p>
+      Este site também inclui uma galeria de imagens com as embalagens colecionáveis da Nuka Cola e uma tabela
+      comparativa dos sabores disponíveis da marca, para que os fãs possam conhecer melhor cada um deles.
+    </p>
+
+    <p>
+      Esperamos que você encontre este site útil e informativo, e que ele ajude a aprofundar ainda mais sobre seu
+      conhecimento da marca Nuka Cola. Agradecemos sua visita e não hesite em nos contatar caso tenha alguma dúvida ou
+      sugestão na página <a href="contato.html"
+        style="text-decoration:underline;font-weight: bold; color: crimson;">Contato</a>
+    </p>
+  </section>
+  <br>
+  <div class="banner2"></div>
+
+  <footer class="footer">
+    <a aria-label="github" href="https://github.com/Gahbr">Desenvolvido por Gabriel Ribeiro <a
+        href="https://www.linkedin.com/in/gabriellribeiro1/" aria-label="linkedin"><img
+          src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" width="25px" alt="linkedin logo" /></a></a>
+  </footer>
+
+  <script type="text/javascript">
+    const toggleMenu = () => {
+      document.body.classList.toggle("open");
+    };
+  </script>
+</body>
+
+</html>

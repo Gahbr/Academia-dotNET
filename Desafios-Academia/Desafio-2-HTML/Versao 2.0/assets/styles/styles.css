@@ -1,0 +1,297 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+body{
+  background-image: url("../images/background-beige.png");
+  background-size: cover;
+  color: rgb(71, 4, 4);
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.navbar,
+.navbar-burger,
+.menu,
+.background {
+  position: fixed;
+}
+
+h1 {
+  position: relative;
+  
+}
+
+table{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+ }
+
+ table td,th {
+   border: 1px solid;
+ }
+
+ table th, td {
+   padding: 10px;
+   text-align: left;
+ }
+
+
+ /*Banners*/
+.banner {
+  position: relative; 
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner::before {    
+    content: "";
+    background-image: url("../images/nuka-ad4.jpg");
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.banner2 {
+  position: relative; 
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner2::before {    
+    content: "";
+    background-image: url("../images/nuka-girl.jpeg");
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.banner3 {
+  position: relative; 
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner3::before {    
+    content: "";
+    background-image: url("../images/nuka-ad2.webp");
+    background-size: contain;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+.background-beige {
+  position: relative; 
+  height: 150vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-beige::before {    
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+body.open .background {
+  filter: blur(20px);
+}
+
+.navbar {
+  z-index: 1;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  padding-left: 20px;
+  padding-right: 72px;
+  background: #19191c;
+  color: #f9f9f9;
+}
+
+.navbar > button {
+  font-size: 28px;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+.navbar-burger {
+  z-index: 3;
+  top: 0;
+  right: 0;
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  background-image: url("../svg/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body.open .navbar-burger {
+  background-image: url("../svg/close.svg");
+}
+
+.menu {
+  z-index: 2;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+body.open .menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu > a {
+  color: #f9f9f9;
+  font-size: 32px;
+  font-family: "Euclid Circular A";
+  text-decoration: none;
+}
+
+body.open .menu > a {
+  animation: appear 0.3s both;
+}
+
+
+/*Formulario*/
+textarea{
+  border-radius: 0.5rem;
+  width: 400px;
+  resize: none;
+}
+
+input, select{
+  border-radius: 0.5rem;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+}
+
+#btn{
+  background-color: darkred;
+  border-radius: 2rem;
+  padding: 10px 40px 10px 40px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.container{
+  background-color: #222;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: #fff;
+}
+
+section{
+  position: relative;
+  font-size: x-large;
+}
+
+/*Galeria*/
+.img{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.galery-image{
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  object-fit: fill;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 4px solid black;
+    margin: 0 50px;
+}
+
+/*Rodapé*/
+.footer{
+  display: flex;
+  background-color: #252525;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    translate: 0 50px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
