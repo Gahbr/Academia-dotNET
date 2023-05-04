@@ -11,9 +11,7 @@ Exercício de Javascript
 5 – Crie um formulário de seleção de itens com checkbox. O formulário deve possuir um botão desabilitado. O botão
 só se torna clicável quando tiver pelo menos 2 checkboxs marcado.
 
-6 – Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para
-
-preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo. Use divs se julgar necessário.
+6 – Crie um parágrafo com um texto como conteúdo. Crie 4 botões. Dois para trocar a cor da fonte, de branco para preto e vice-versa e outros dois para fazer o mesmo com o fundo do parágrafo. Use divs se julgar necessário.
 
 7 – Crie um botão + (mais) e outro – (menos) na mesma página do exercício anterior. Esses botões aumentam e diminuem o tamanho da fonte respectivamente.
 
