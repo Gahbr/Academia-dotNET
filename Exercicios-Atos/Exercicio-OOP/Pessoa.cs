@@ -3,8 +3,15 @@ namespace Exercicio_OOP
 {
     internal class Pessoa
     {
-        public string nome;
-        public int idade;
+        /*Encapsulamento é um principio da orientação a objetos - Permite proteger informações de um objeto
+         * public -> vai ser publico, vai ser visivel a todos os componentes do propgrama 
+         * private -> é acessivel somente dentro da classe 
+         * protected -> é acessivel dentro da prórpia classe e nas suas subclasses (herança) 
+         * internal -> podem ser acessado dentro do mesmo assembly (um conjunto de aquivos de código fontes
+         */
+
+        private string nome;
+        private int idade;
 
         //Construtores
         public Pessoa()
@@ -21,6 +28,11 @@ namespace Exercicio_OOP
         {
             this.idade = idade;
         }
+            public string Nome
+        {
+            get { return nome; }
+            set { nome = value; }
+        }
 
         public void exibeDados()
         {

@@ -84,10 +84,18 @@
             //    }
 
             //Exercicio 4 
-            Aluno a1 = new Aluno("20/01/2000");
-            Aluno a2 = new Aluno("Josilnelix", 928191);
-            Aluno a3 = new Aluno("Miltonilelison", "05/02/1969",2020);
-            
+            //Aluno a1 = new Aluno("20/01/2000");
+            //Aluno a2 = new Aluno("Josilnelix", 928191);
+            //Aluno a3 = new Aluno("Miltonilelison", "05/02/1969",2020);
+
+           Carro c = new Carro();
+            c.Marca = "VW";
+            c.AnoFabricacao = 1999;
+            c.Modelo = "Gol";
+            c.Motor = new Motor();
+            c.Motor.Cilindradas = 1500;
+            c.LigarCarro();
+
         }
     }
 }
