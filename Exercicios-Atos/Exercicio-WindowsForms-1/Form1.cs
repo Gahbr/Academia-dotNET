@@ -13,7 +13,7 @@ namespace WinFormsApp1
             string filePath = "pessoas.dat";
             FileInfo fileInfo = new FileInfo(filePath);
 
-            if (fileInfo.Length == 0)
+            if (!File.Exists(filePath) || fileInfo.Length == 0 )
             {
                 StreamWriter escritor = new("pessoas.dat", true);
                 escritor.WriteLine("Pessoa" + ";" + "Teste" + ";" + "teste@teste.com");
@@ -32,21 +32,6 @@ namespace WinFormsApp1
 
             leitor.Close();
         }
-
-        //private void buttonGerarEmail_Click(object sender, EventArgs e)
-        //{
-        //    string[] vetorSobrenome = textBoxSobrenome.Text.Split(' ');
-        //    string[] vetorNome = textBoxNome.Text.Split(' ');
-
-        //    if (textBoxNome.Text.Length <= 0 || textBoxSobrenome.Text.Length <= 0) MessageBox.Show("Insira os dados corretamente!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-        //    else
-        //    {
-        //        textBoxEmail.Text = textBoxSobrenome.Text.ToLower() + "_" + textBoxNome.Text.ToLower() + "@ufn.edu.br";
-        //        textBoxListaEmails.AppendText(textBoxEmail.Text + Environment.NewLine);
-        //        textBoxNome.Text = string.Empty;
-        //        textBoxSobrenome.Text = string.Empty;
-        //    }
-        //}
 
         private void buttonGerarEmail_Click2(object sender, EventArgs e)
         {
