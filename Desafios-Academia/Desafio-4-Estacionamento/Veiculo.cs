@@ -14,14 +14,7 @@ namespace Desafio_4_Estacionamento
 
         public Veiculo(string placa, DateTime dataEntrada, DateTime horaEntrada)
         {
-            string placaFormatada = "";
-            foreach (char c in placa)
-            {
-                if (char.IsLetter(c)) placaFormatada += char.ToUpper(c);
-                else placaFormatada += c;
-            }
-
-            Placa = placaFormatada;
+            Placa = placa;
             DataEntrada = dataEntrada;
             HoraEntrada = horaEntrada;
         }
@@ -45,17 +38,10 @@ namespace Desafio_4_Estacionamento
         public static Veiculo EncontrarVeiculo(string placa, List<Veiculo> listaVeiculos)
         {
             Veiculo veiculoEncontrado;
-            string placaFormatada = "";
-
-            foreach (char c in placa)
-            {
-                if (char.IsLetter(c)) placaFormatada += char.ToUpper(c);
-                else placaFormatada += c;
-            }
 
             foreach (Veiculo veiculo in listaVeiculos)
             {
-                if (veiculo.Placa == placaFormatada)
+                if (veiculo.Placa == placa)
                 {
                     veiculoEncontrado = veiculo;
                     return veiculoEncontrado;

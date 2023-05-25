@@ -50,8 +50,7 @@ namespace Desafio_4_Estacionamento
         {
             string input = textBoxPlacaCarro.Text;
             Veiculo veiculo = Veiculo.EncontrarVeiculo(input, listaVeiculos);
-            string placa = veiculo.Placa;
-            if (!Veiculo.JaCadastrado(placa, listaVeiculos))
+            if (!Veiculo.JaCadastrado(input, listaVeiculos))
             {
                 MessageBox.Show("Veículo não cadastrado no sistema!");
                 return;
@@ -65,10 +64,11 @@ namespace Desafio_4_Estacionamento
             string horaEntradaFormatada = veiculo.HoraEntrada.ToString(@"t");
 
 
-            textBoxVeiculosSaida.AppendText($"{veiculo.Placa};{dataEntradaFormatada};{horaEntradaFormatada};{tempoFormatado};{veiculo.ValorCobrado} {Environment.NewLine}");
-
+            listBoxVeiculosSaida.Items.Add($"{veiculo.Placa};{dataEntradaFormatada};{horaEntradaFormatada};{tempoFormatado};{veiculo.ValorCobrado} {Environment.NewLine}");
             listaSaida.Add(veiculo);
             listaVeiculos.Remove(veiculo);
+            textBoxTempoPermanencia.Text = tempoFormatado;
+            textBoxValorPagar.Text = $"R${veiculo.ValorCobrado},00";
 
             for (int i = listBoxVeiculosGaragem.Items.Count - 1; i >= 0; i--)
             {
@@ -88,6 +88,16 @@ namespace Desafio_4_Estacionamento
             //         placa; dataEntrada; horaEntrada; tempoPermanecia; valorCobrado
             //         Por exemplo, placa; 62 minutos ou 2 horas; 10 reais
             //         IPL7154; 11 / 06 / 2022; 12:34; 62; 10
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            labelHoraAtual.Text = DateTime.Now.ToString("g");
         }
     }
 }
