@@ -99,9 +99,9 @@
             labelListaVeiculosGaragem.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             labelListaVeiculosGaragem.Location = new Point(12, 201);
             labelListaVeiculosGaragem.Name = "labelListaVeiculosGaragem";
-            labelListaVeiculosGaragem.Size = new Size(299, 30);
+            labelListaVeiculosGaragem.Size = new Size(218, 30);
             labelListaVeiculosGaragem.TabIndex = 6;
-            labelListaVeiculosGaragem.Text = "Lista de Veículos na Garagem";
+            labelListaVeiculosGaragem.Text = "Veículos na Garagem";
             // 
             // label3
             // 
@@ -110,9 +110,9 @@
             label3.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(439, 201);
             label3.Name = "label3";
-            label3.Size = new Size(412, 30);
+            label3.Size = new Size(331, 30);
             label3.TabIndex = 7;
-            label3.Text = "Lista de Veículos que saíram da Garagem";
+            label3.Text = "Veículos que saíram da Garagem";
             // 
             // label4
             // 
@@ -142,7 +142,7 @@
             listBoxVeiculosSaida.ItemHeight = 25;
             listBoxVeiculosSaida.Location = new Point(439, 234);
             listBoxVeiculosSaida.Name = "listBoxVeiculosSaida";
-            listBoxVeiculosSaida.Size = new Size(363, 129);
+            listBoxVeiculosSaida.Size = new Size(372, 129);
             listBoxVeiculosSaida.TabIndex = 10;
             // 
             // labelHoraAtual
@@ -174,7 +174,7 @@
             // 
             labelValorPagar.AutoSize = true;
             labelValorPagar.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            labelValorPagar.Location = new Point(499, 385);
+            labelValorPagar.Location = new Point(507, 385);
             labelValorPagar.Name = "labelValorPagar";
             labelValorPagar.Size = new Size(172, 32);
             labelValorPagar.TabIndex = 13;
@@ -184,7 +184,7 @@
             // 
             textBoxValorPagar.CharacterCasing = CharacterCasing.Upper;
             textBoxValorPagar.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxValorPagar.Location = new Point(677, 385);
+            textBoxValorPagar.Location = new Point(685, 385);
             textBoxValorPagar.MaxLength = 7;
             textBoxValorPagar.Name = "textBoxValorPagar";
             textBoxValorPagar.Size = new Size(126, 35);
@@ -194,7 +194,7 @@
             // 
             textBoxTempoPermanencia.CharacterCasing = CharacterCasing.Upper;
             textBoxTempoPermanencia.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBoxTempoPermanencia.Location = new Point(677, 428);
+            textBoxTempoPermanencia.Location = new Point(685, 428);
             textBoxTempoPermanencia.MaxLength = 7;
             textBoxTempoPermanencia.Name = "textBoxTempoPermanencia";
             textBoxTempoPermanencia.Size = new Size(126, 35);
@@ -204,7 +204,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 18F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label5.Location = new Point(396, 431);
+            label5.Location = new Point(404, 431);
             label5.Name = "label5";
             label5.Size = new Size(275, 32);
             label5.TabIndex = 15;

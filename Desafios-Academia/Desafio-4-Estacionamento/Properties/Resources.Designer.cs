@@ -59,15 +59,5 @@ namespace Desafio_4_Estacionamento.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap McL5jj7ca {
-            get {
-                object obj = ResourceManager.GetObject("McL5jj7ca", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
