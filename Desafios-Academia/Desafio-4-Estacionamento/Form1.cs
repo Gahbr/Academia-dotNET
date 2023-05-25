@@ -6,47 +6,24 @@ namespace Desafio_4_Estacionamento
         private List<Veiculo> listaVeiculos = new();
         private List<Veiculo> listaSaida = new();
         readonly static string entradaFilePath = "veiculosEntrada.dat";
-        readonly static string saidaFilePath = "veiculosSaida.dat";
-        readonly FileInfo fileInfo = new FileInfo(entradaFilePath);
+
         public Form1()
         {
             InitializeComponent();
 
-            if (File.Exists(entradaFilePath) && fileInfo.Length > 0)
+            Persistencia.LerArquivoEntrada(listaVeiculos);
+
+            //populando listbox
+            foreach (var item in listaVeiculos)
             {
-                StreamReader leitor = new StreamReader(entradaFilePath);
-                do
-                {
-                    string linha = leitor.ReadLine();
-                    string[] vetorDados = linha.Split(";");
-                    Veiculo veiculo = new(vetorDados[0], DateTime.Parse(vetorDados[1]), DateTime.Parse(vetorDados[2]));
-
-                    listaVeiculos.Add(veiculo);
-                    listBoxVeiculosGaragem.Items.Add($"{veiculo.Placa}; {veiculo.DataEntrada:d}; {veiculo.HoraEntrada:t}");
-
-                } while (!leitor.EndOfStream);
-
-                leitor.Close();
+                listBoxVeiculosGaragem.Items.Add($"{item.Placa}; {item.DataEntrada:d}; {item.HoraEntrada:t}");
             }
 
-            if (File.Exists(saidaFilePath) && new FileInfo(entradaFilePath).Length > 0)
+            Persistencia.LerArquivosSaida(listaSaida);
+            //populando listbox
+            foreach (var item in listaSaida)
             {
-                StreamReader leitor = new StreamReader(saidaFilePath);
-                do
-                {
-                    string linha = leitor.ReadLine();
-                    string[] vetorDados = linha.Split(";");
-                    Veiculo veiculo = new(vetorDados[0], DateTime.Parse(vetorDados[1]), DateTime.Parse(vetorDados[2]));
-                    string tempoFormatado = veiculo.TempoPermanencia.ToString(@"hh\:mm\:ss");
-                    string dataEntradaFormatada = veiculo.DataEntrada.ToString(@"d");
-                    string horaEntradaFormatada = veiculo.HoraEntrada.ToString(@"t");
-
-                    listaVeiculos.Add(veiculo);
-                    listBoxVeiculosSaida.Items.Add($"{veiculo.Placa};{dataEntradaFormatada};{horaEntradaFormatada};{tempoFormatado};{veiculo.ValorCobrado} {Environment.NewLine}");
-
-                } while (!leitor.EndOfStream);
-
-                leitor.Close();
+             listBoxVeiculosSaida.Items.Add($"{item.Placa};{item.DataEntrada:d};{item.HoraEntrada:t};{item.TempoPermanencia:hh\\:mm\\:ss};{item.ValorCobrado}");
             }
         }
 
@@ -79,10 +56,7 @@ namespace Desafio_4_Estacionamento
             listaVeiculos.Add(veiculo);
             listBoxVeiculosGaragem.Items.Add($"{veiculo.Placa}; {veiculo.DataEntrada:d}; {veiculo.HoraEntrada:t}");
 
-            //salvando no arquivo
-            StreamWriter escritor = new StreamWriter(entradaFilePath, true);
-            escritor.WriteLine($"{veiculo.Placa};{veiculo.DataEntrada:d};{veiculo.HoraEntrada:t}");
-            escritor.Close();
+            Persistencia.GravarArquivoEntrada(veiculo);
         }
 
         private void SaidaCarro(object sender, EventArgs e)
@@ -99,15 +73,11 @@ namespace Desafio_4_Estacionamento
             veiculo.TempoPermanencia = DateTime.Now.Subtract(veiculo.HoraEntrada);
             veiculo.ValorCobrado = Math.Ceiling(veiculo.TempoPermanencia.TotalHours) * 5;
 
-            string tempoFormatado = veiculo.TempoPermanencia.ToString(@"hh\:mm\:ss");
-            string dataEntradaFormatada = veiculo.DataEntrada.ToString(@"d");
-            string horaEntradaFormatada = veiculo.HoraEntrada.ToString(@"t");
 
-
-            listBoxVeiculosSaida.Items.Add($"{veiculo.Placa};{dataEntradaFormatada};{horaEntradaFormatada};{tempoFormatado};{veiculo.ValorCobrado} {Environment.NewLine}");
+            listBoxVeiculosSaida.Items.Add($"{veiculo.Placa};{veiculo.DataEntrada:d};{veiculo.HoraEntrada:t};{veiculo.TempoPermanencia:hh\\:mm\\:ss};{veiculo.ValorCobrado} {Environment.NewLine}");
             listaSaida.Add(veiculo);
             listaVeiculos.Remove(veiculo);
-            textBoxTempoPermanencia.Text = tempoFormatado;
+            textBoxTempoPermanencia.Text = veiculo.TempoPermanencia.ToString(@"hh\:mm\:ss");
             textBoxValorPagar.Text = $"R${veiculo.ValorCobrado},00";
 
             //removendo da listbox
@@ -121,21 +91,10 @@ namespace Desafio_4_Estacionamento
                 }
             }
 
-            MessageBox.Show($"Placa: {veiculo.Placa} Tempo de permanência: {tempoFormatado} Valor a pagar: R${veiculo.ValorCobrado},00","Resultado", MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show($"Placa: {veiculo.Placa} Tempo de permanência: {veiculo.TempoPermanencia:hh\\:mm\\:ss} Valor a pagar: R${veiculo.ValorCobrado},00", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            //salvando no arquivo VeiculosSaida
-            StreamWriter escritor = new StreamWriter(saidaFilePath, true);
-            escritor.WriteLine($"{veiculo.Placa};{dataEntradaFormatada};{horaEntradaFormatada};{tempoFormatado};{veiculo.ValorCobrado}");
-            escritor.Close();
-
-
-            //lendo o arquivo de entrada e atualizando
-            StreamWriter atualizaArquivo = new StreamWriter(entradaFilePath, false);
-            foreach (var item in listaVeiculos)
-            {
-                atualizaArquivo.WriteLine($"{item.Placa};{item.DataEntrada:d};{item.HoraEntrada:t}");
-            }
-            atualizaArquivo.Close();
+            Persistencia.gravarArquivoVeiculosSaida(veiculo);
+            Persistencia.AtualizarArquivoEntrada(listaVeiculos);
         }
 
         private void Form1_Load(object sender, EventArgs e)
