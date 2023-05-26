@@ -5,7 +5,6 @@ namespace Desafio_4_Estacionamento
     {
         private List<Veiculo> listaVeiculos = new();
         private List<Veiculo> listaSaida = new();
-        readonly static string entradaFilePath = "veiculosEntrada.dat";
 
         public Form1()
         {
@@ -20,10 +19,11 @@ namespace Desafio_4_Estacionamento
             }
 
             Persistencia.LerArquivosSaida(listaSaida);
+
             //populando listbox
             foreach (var item in listaSaida)
             {
-             listBoxVeiculosSaida.Items.Add($"{item.Placa};{item.DataEntrada:d};{item.HoraEntrada:t};{item.TempoPermanencia:hh\\:mm\\:ss};{item.ValorCobrado}");
+                listBoxVeiculosSaida.Items.Add($"{item.Placa};{item.DataEntrada:d};{item.HoraEntrada:t};{item.TempoPermanencia:hh\\:mm\\:ss};{item.ValorCobrado}");
             }
         }
 
@@ -77,8 +77,9 @@ namespace Desafio_4_Estacionamento
             listBoxVeiculosSaida.Items.Add($"{veiculo.Placa};{veiculo.DataEntrada:d};{veiculo.HoraEntrada:t};{veiculo.TempoPermanencia:hh\\:mm\\:ss};{veiculo.ValorCobrado} {Environment.NewLine}");
             listaSaida.Add(veiculo);
             listaVeiculos.Remove(veiculo);
-            textBoxTempoPermanencia.Text = veiculo.TempoPermanencia.ToString(@"hh\:mm\:ss");
-            textBoxValorPagar.Text = $"R${veiculo.ValorCobrado},00";
+            labelTempoPermanencia.Text = veiculo.TempoPermanencia.ToString(@"hh\:mm\:ss");
+            label2.Text = $"R${veiculo.ValorCobrado},00";
+
 
             //removendo da listbox
             for (int i = listBoxVeiculosGaragem.Items.Count - 1; i >= 0; i--)
@@ -92,17 +93,16 @@ namespace Desafio_4_Estacionamento
             }
 
             MessageBox.Show($"Placa: {veiculo.Placa} Tempo de permanência: {veiculo.TempoPermanencia:hh\\:mm\\:ss} Valor a pagar: R${veiculo.ValorCobrado},00", "Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-            Persistencia.gravarArquivoVeiculosSaida(veiculo);
+            Persistencia.GravarArquivoVeiculosSaida(veiculo);
             Persistencia.AtualizarArquivoEntrada(listaVeiculos);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            timer1.Start();
+            Timer1.Start();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
             labelHoraAtual.Text = DateTime.Now.ToString("g");
         }

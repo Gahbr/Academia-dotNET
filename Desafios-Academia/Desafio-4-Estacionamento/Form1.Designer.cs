@@ -40,14 +40,16 @@
             listBoxVeiculosGaragem = new ListBox();
             listBoxVeiculosSaida = new ListBox();
             labelHoraAtual = new Label();
-            timer1 = new System.Windows.Forms.Timer(components);
+            Timer1 = new System.Windows.Forms.Timer(components);
             pictureBox1 = new PictureBox();
             labelValorPagar = new Label();
-            textBoxValorPagar = new TextBox();
-            textBoxTempoPermanencia = new TextBox();
             label5 = new Label();
             pictureBox2 = new PictureBox();
             pictureBox3 = new PictureBox();
+            labelValor = new Label();
+            labelTempoPermanencia = new Label();
+            labelPreco = new Label();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -60,8 +62,10 @@
             // 
             // textBoxPlacaCarro
             // 
-            resources.ApplyResources(textBoxPlacaCarro, "textBoxPlacaCarro");
+            textBoxPlacaCarro.BackColor = SystemColors.ActiveCaption;
             textBoxPlacaCarro.CharacterCasing = CharacterCasing.Upper;
+            resources.ApplyResources(textBoxPlacaCarro, "textBoxPlacaCarro");
+            textBoxPlacaCarro.ForeColor = Color.Gold;
             textBoxPlacaCarro.Name = "textBoxPlacaCarro";
             // 
             // buttonEntrada
@@ -95,12 +99,14 @@
             // 
             // listBoxVeiculosGaragem
             // 
+            listBoxVeiculosGaragem.BackColor = SystemColors.ActiveCaption;
             resources.ApplyResources(listBoxVeiculosGaragem, "listBoxVeiculosGaragem");
             listBoxVeiculosGaragem.FormattingEnabled = true;
             listBoxVeiculosGaragem.Name = "listBoxVeiculosGaragem";
             // 
             // listBoxVeiculosSaida
             // 
+            listBoxVeiculosSaida.BackColor = SystemColors.ActiveCaption;
             resources.ApplyResources(listBoxVeiculosSaida, "listBoxVeiculosSaida");
             listBoxVeiculosSaida.FormattingEnabled = true;
             listBoxVeiculosSaida.Name = "listBoxVeiculosSaida";
@@ -110,10 +116,10 @@
             resources.ApplyResources(labelHoraAtual, "labelHoraAtual");
             labelHoraAtual.Name = "labelHoraAtual";
             // 
-            // timer1
+            // Timer1
             // 
-            timer1.Enabled = true;
-            timer1.Tick += timer1_Tick;
+            Timer1.Enabled = true;
+            Timer1.Tick += Timer1_Tick;
             // 
             // pictureBox1
             // 
@@ -125,18 +131,6 @@
             // 
             resources.ApplyResources(labelValorPagar, "labelValorPagar");
             labelValorPagar.Name = "labelValorPagar";
-            // 
-            // textBoxValorPagar
-            // 
-            resources.ApplyResources(textBoxValorPagar, "textBoxValorPagar");
-            textBoxValorPagar.CharacterCasing = CharacterCasing.Upper;
-            textBoxValorPagar.Name = "textBoxValorPagar";
-            // 
-            // textBoxTempoPermanencia
-            // 
-            resources.ApplyResources(textBoxTempoPermanencia, "textBoxTempoPermanencia");
-            textBoxTempoPermanencia.CharacterCasing = CharacterCasing.Upper;
-            textBoxTempoPermanencia.Name = "textBoxTempoPermanencia";
             // 
             // label5
             // 
@@ -155,16 +149,42 @@
             pictureBox3.Name = "pictureBox3";
             pictureBox3.TabStop = false;
             // 
+            // labelValor
+            // 
+            labelValor.ForeColor = Color.OliveDrab;
+            resources.ApplyResources(labelValor, "labelValor");
+            labelValor.Name = "labelValor";
+            // 
+            // labelTempoPermanencia
+            // 
+            resources.ApplyResources(labelTempoPermanencia, "labelTempoPermanencia");
+            labelTempoPermanencia.ForeColor = Color.IndianRed;
+            labelTempoPermanencia.Name = "labelTempoPermanencia";
+            // 
+            // labelPreco
+            // 
+            labelPreco.ForeColor = Color.OliveDrab;
+            resources.ApplyResources(labelPreco, "labelPreco");
+            labelPreco.Name = "labelPreco";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(label2, "label2");
+            label2.ForeColor = Color.OliveDrab;
+            label2.Name = "label2";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
+            Controls.Add(label2);
+            Controls.Add(labelPreco);
+            Controls.Add(labelTempoPermanencia);
+            Controls.Add(labelValor);
             Controls.Add(pictureBox3);
             Controls.Add(pictureBox2);
-            Controls.Add(textBoxTempoPermanencia);
             Controls.Add(label5);
-            Controls.Add(textBoxValorPagar);
             Controls.Add(labelValorPagar);
             Controls.Add(pictureBox1);
             Controls.Add(labelHoraAtual);
@@ -198,13 +218,15 @@
         private ListBox listBoxVeiculosGaragem;
         private ListBox listBoxVeiculosSaida;
         private Label labelHoraAtual;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer Timer1;
         private PictureBox pictureBox1;
         private Label labelValorPagar;
-        private TextBox textBoxValorPagar;
-        private TextBox textBoxTempoPermanencia;
         private Label label5;
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
+        private Label labelValor;
+        private Label labelTempoPermanencia;
+        private Label labelPreco;
+        private Label label2;
     }
 }
