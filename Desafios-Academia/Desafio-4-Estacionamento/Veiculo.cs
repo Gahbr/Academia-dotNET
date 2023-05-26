@@ -56,6 +56,12 @@ namespace Desafio_4_Estacionamento
             return true;
         }
 
+        public static bool EstacionamentoAberto(DateTime hour)
+        {
+            if (hour.Hour < 7 && hour.Hour > 20) return false;
+            return true;
+        }
+
         public override bool Equals(object? obj)
         {
             return obj is Veiculo veiculo &&

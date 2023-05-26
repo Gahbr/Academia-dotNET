@@ -41,6 +41,12 @@ namespace Desafio_4_Estacionamento
                 return;
             }
 
+            if (!Veiculo.EstacionamentoAberto(horaEntrada))
+            {
+                MessageBox.Show("O Estacionamento está fora do horário de funcionamento. Volte mais tarde.");
+                return;
+            }
+
             if (!Veiculo.TemLugar(listaVeiculos))
             {
                 MessageBox.Show("Garagem atingiu a capacidade máxima (50)");
@@ -67,6 +73,12 @@ namespace Desafio_4_Estacionamento
             if (!Veiculo.JaCadastrado(input, listaVeiculos))
             {
                 MessageBox.Show("Veículo não cadastrado no sistema!", "Erro!", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                return;
+            }
+
+            if (!Veiculo.EstacionamentoAberto(DateTime.Now))
+            {
+                MessageBox.Show("O Estacionamento está fora do horário de funcionamento. Volte mais tarde.");
                 return;
             }
 
