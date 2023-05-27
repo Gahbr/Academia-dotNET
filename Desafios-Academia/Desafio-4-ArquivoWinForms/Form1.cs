@@ -27,8 +27,15 @@ namespace Desafio_4_ArquivoWinForms
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            listBoxResult.Visible = true;
-            listBoxResult.Items.Clear();
+            //visibilidade
+            button1.Visible = false;
+            dataGridView1.Visible = true;
+            labelAlunos.Visible = true;
+            labelQtdAlunos.Visible = true;
+            labelQtdAlunosValor.Visible = true;
+            labelQtdPessoas.Visible = true;
+            labelQtdPessoasValor.Visible = true;
+
             int lineCount = listBoxArquivo.Items.Count;
             int alunosCount = 0;
             int pessoasCount = 0;
@@ -54,6 +61,17 @@ namespace Desafio_4_ArquivoWinForms
                     alunosCount++;
                     aluno = new(vectorPreviousLine[1], vectorPreviousLine[2], vectorPreviousLine[3], vectorPreviousLine[4], vectorPreviousLine[5], int.Parse(vectorLine[1]), int.Parse(vectorLine[2]), vectorLine[3]);
                     alunosList.Add(aluno);
+
+                    DataGridViewRow row = new DataGridViewRow();
+
+                    DataGridViewTextBoxCell cell1 = new();
+                    cell1.Value = aluno.Nome;
+                    row.Cells.Add(cell1);
+
+                    DataGridViewTextBoxCell cell2 = new();
+                    cell2.Value = aluno.NomeCurso;
+                    row.Cells.Add(cell2);
+                    dataGridView1.Rows.Add(row);
                 }
             }
 
@@ -65,23 +83,14 @@ namespace Desafio_4_ArquivoWinForms
                 if (alunosList.Any(aluno => aluno.Cpf == item.Cpf))
                 {
                     pessoasToRemove.Add(item);
+                    pessoasCount--;
                 }
             }
 
             foreach (var pessoa in pessoasToRemove) pessoasList.Remove(pessoa);
 
-            //log
-            Debug.WriteLine("--lista pessoas--");
-            foreach (var item in pessoasList)
-            {
-                Debug.WriteLine(item.Nome);
-            }
-
-            Debug.WriteLine("--lista Alunos--");
-            foreach (var item in alunosList)
-            {
-                Debug.WriteLine(item.Nome);
-            }
+            labelQtdAlunosValor.Text = alunosCount.ToString();
+            labelQtdPessoasValor.Text = pessoasCount.ToString();
         }
     }
 }
