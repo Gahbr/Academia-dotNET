@@ -36,9 +36,12 @@
             btnFornecedores = new Button();
             btnProdutos = new Button();
             panelLogo = new Panel();
+            label2 = new Label();
             panelTitleBar = new Panel();
-            label1 = new Label();
+            labelTitle = new Label();
+            panelDesktop = new Panel();
             panelMenu.SuspendLayout();
+            panelLogo.SuspendLayout();
             panelTitleBar.SuspendLayout();
             SuspendLayout();
             // 
@@ -178,44 +181,68 @@
             // panelLogo
             // 
             panelLogo.BackColor = Color.FromArgb(40, 40, 60);
+            panelLogo.Controls.Add(label2);
             panelLogo.Dock = DockStyle.Top;
             panelLogo.Location = new Point(0, 0);
             panelLogo.Name = "panelLogo";
             panelLogo.Size = new Size(220, 80);
             panelLogo.TabIndex = 0;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.LightGray;
+            label2.Location = new Point(62, 25);
+            label2.Name = "label2";
+            label2.Size = new Size(74, 20);
+            label2.TabIndex = 0;
+            label2.Text = "Mini ERP";
+            // 
             // panelTitleBar
             // 
             panelTitleBar.BackColor = Color.FromArgb(0, 150, 140);
-            panelTitleBar.Controls.Add(label1);
+            panelTitleBar.Controls.Add(labelTitle);
             panelTitleBar.Dock = DockStyle.Top;
             panelTitleBar.Location = new Point(220, 0);
             panelTitleBar.Name = "panelTitleBar";
             panelTitleBar.Size = new Size(580, 100);
             panelTitleBar.TabIndex = 1;
             // 
-            // label1
+            // labelTitle
             // 
-            label1.Anchor = AnchorStyles.None;
-            label1.AutoSize = true;
-            label1.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(264, 39);
-            label1.Name = "label1";
-            label1.Size = new Size(71, 26);
-            label1.TabIndex = 2;
-            label1.Text = "Home";
+            labelTitle.Anchor = AnchorStyles.None;
+            labelTitle.AutoSize = true;
+            labelTitle.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point);
+            labelTitle.ForeColor = Color.White;
+            labelTitle.Location = new Point(264, 39);
+            labelTitle.Name = "labelTitle";
+            labelTitle.Size = new Size(71, 26);
+            labelTitle.TabIndex = 2;
+            labelTitle.Text = "Home";
+            // 
+            // panelDesktop
+            // 
+            panelDesktop.Dock = DockStyle.Fill;
+            panelDesktop.Location = new Point(220, 100);
+            panelDesktop.Name = "panelDesktop";
+            panelDesktop.Size = new Size(580, 479);
+            panelDesktop.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSizeMode = AutoSizeMode.GrowAndShrink;
             ClientSize = new Size(800, 579);
+            Controls.Add(panelDesktop);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);
             Name = "Form1";
             Text = "Form1";
             panelMenu.ResumeLayout(false);
+            panelLogo.ResumeLayout(false);
+            panelLogo.PerformLayout();
             panelTitleBar.ResumeLayout(false);
             panelTitleBar.PerformLayout();
             ResumeLayout(false);
@@ -232,6 +259,8 @@
         private Button button2;
         private Button btnFornecedores;
         private Panel panelTitleBar;
-        private Label label1;
+        private Label labelTitle;
+        private Label label2;
+        private Panel panelDesktop;
     }
 }

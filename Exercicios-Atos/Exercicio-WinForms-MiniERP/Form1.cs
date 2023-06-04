@@ -5,6 +5,7 @@ namespace Exercicio_WinForms_MiniERP
         private Button currentButton;
         private Random random;
         private int tempIndex;
+        private Form activeForm;
 
         public Form1()
         {
@@ -36,6 +37,10 @@ namespace Exercicio_WinForms_MiniERP
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, ((byte)(0)));
+                    panelTitleBar.BackColor = color;
+                    panelLogo.BackColor = ThemeColor.ChangeColorBrightness(color, -0.3);
+                    ThemeColor.PrimaryColor = color;
+                    ThemeColor.SecondaryColor = ThemeColor.ChangeColorBrightness(color, -0.3);
                 }
             }
         }
@@ -53,19 +58,36 @@ namespace Exercicio_WinForms_MiniERP
             }
         }
 
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+            {
+                activeForm.Close();
+            }
+
+            ActivateButton(btnSender);
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(childForm);
+            this.panelDesktop.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            labelTitle.Text = childForm.Text;
+        }
         private void btnProdutos_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormProduto(), sender);
         }
 
         private void btnFornecedores_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormProduto(), sender);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormProduto(), sender);
         }
     }
 }
