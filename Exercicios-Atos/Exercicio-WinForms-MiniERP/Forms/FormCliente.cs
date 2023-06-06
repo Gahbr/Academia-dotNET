@@ -29,7 +29,7 @@ namespace Exercicio_WinForms_MiniERP.Forms
 
         private void btnCadastrarCliente_Click(object sender, EventArgs e)
         {
-            Cliente c = new Cliente(textBoxNomeCliente.Text);
+            Cliente c = new Cliente(textBoxNomeClienteC.Text);
 
             if (c.GravarCliente())
             {
@@ -38,6 +38,20 @@ namespace Exercicio_WinForms_MiniERP.Forms
             else
             {
                 MessageBox.Show("Erro ao cadastrar usuário");
+            }
+        }
+
+        private void buttonEditar_Click(object sender, EventArgs e)
+        {
+            Cliente c = new(int.Parse(textBoxEditId.Text), textBoxEditNome.Text);
+
+            if (c.EditarCliente(c.ID, c.Nome))
+            {
+                MessageBox.Show("Editado com sucesso");
+            }
+            else
+            {
+                MessageBox.Show("Erro ao Editar usuário");
             }
         }
     }

@@ -206,7 +206,7 @@
             panelTitleBar.Dock = DockStyle.Top;
             panelTitleBar.Location = new Point(220, 0);
             panelTitleBar.Name = "panelTitleBar";
-            panelTitleBar.Size = new Size(580, 100);
+            panelTitleBar.Size = new Size(664, 100);
             panelTitleBar.TabIndex = 1;
             // 
             // labelTitle
@@ -215,7 +215,7 @@
             labelTitle.AutoSize = true;
             labelTitle.Font = new Font("Microsoft Sans Serif", 16F, FontStyle.Regular, GraphicsUnit.Point);
             labelTitle.ForeColor = Color.White;
-            labelTitle.Location = new Point(264, 39);
+            labelTitle.Location = new Point(306, 39);
             labelTitle.Name = "labelTitle";
             labelTitle.Size = new Size(71, 26);
             labelTitle.TabIndex = 2;
@@ -226,18 +226,20 @@
             panelDesktop.Dock = DockStyle.Fill;
             panelDesktop.Location = new Point(220, 100);
             panelDesktop.Name = "panelDesktop";
-            panelDesktop.Size = new Size(580, 479);
+            panelDesktop.Size = new Size(664, 479);
             panelDesktop.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            ClientSize = new Size(800, 579);
+            ClientSize = new Size(884, 579);
             Controls.Add(panelDesktop);
             Controls.Add(panelTitleBar);
             Controls.Add(panelMenu);
+            MaximizeBox = false;
             Name = "Form1";
             Text = "Form1";
             panelMenu.ResumeLayout(false);
