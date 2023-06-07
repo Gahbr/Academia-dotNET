@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Exercicio_EntityFramework.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230606183936_Initial")]
+    [Migration("20230607201723_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -58,6 +58,10 @@ namespace Exercicio_EntityFramework.Migrations
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
 
                     b.Property<string>("email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("nome")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

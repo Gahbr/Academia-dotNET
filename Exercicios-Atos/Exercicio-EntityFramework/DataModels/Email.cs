@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Exercicio_EntityFramework.DataModels
 {
-    internal class Email
+    public class Email
     {
         public int id { get; set; }
         public string email { get; set; }
