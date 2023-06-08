@@ -21,6 +21,7 @@ namespace Exercicio_WinForms_MiniERP.Model
         {
             Nome = nome;
         }
+        public Cliente(){}
 
         public bool GravarCliente()
         {
@@ -91,7 +92,7 @@ namespace Exercicio_WinForms_MiniERP.Model
             SqlCommand command = cn.CreateCommand();
             command.Transaction = tran;
             command.CommandType = CommandType.Text;
-            command.CommandText = "DELETE FROM PESSOAS WHERE ID = @Id;";
+            command.CommandText = "DELETE FROM CLIENTES WHERE ID = @Id;";
             command.Parameters.AddWithValue("@Id", id.ToString());
 
             try

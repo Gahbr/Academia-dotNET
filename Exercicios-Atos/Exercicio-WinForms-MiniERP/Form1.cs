@@ -82,7 +82,7 @@ namespace Exercicio_WinForms_MiniERP
 
         private void btnFornecedores_Click(object sender, EventArgs e)
         {
-            OpenChildForm(new Forms.FormProduto(), sender);
+            OpenChildForm(new Forms.FormFornecedor(), sender);
         }
 
         private void button2_Click(object sender, EventArgs e)

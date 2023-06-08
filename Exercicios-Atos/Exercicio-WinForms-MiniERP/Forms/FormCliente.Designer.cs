@@ -240,6 +240,7 @@
             buttonDeletar.TabIndex = 12;
             buttonDeletar.Text = "Deletar";
             buttonDeletar.UseVisualStyleBackColor = true;
+            buttonDeletar.Click += buttonDeletar_Click;
             // 
             // textBoxID
             // 
@@ -261,7 +262,7 @@
             // 
             label15.AutoSize = true;
             label15.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label15.Location = new Point(477, 25);
+            label15.Location = new Point(443, 25);
             label15.Name = "label15";
             label15.Size = new Size(68, 25);
             label15.TabIndex = 21;
