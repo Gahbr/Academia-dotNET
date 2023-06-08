@@ -1,0 +1,17 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IMCCalculator.IMCPage">
+
+    <StackLayout Margin="20">
+        <Entry x:Name="pesoInput" Placeholder="Peso (kg)" Keyboard="Numeric" />
+        
+        <Entry x:Name="alturaInput" Placeholder="Altura (cm)" Keyboard="Numeric" />
+
+        <Button Text="Calcular IMC" Clicked="CalculateButton_Clicked" />
+
+        <Label x:Name="lblResultado" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" FontSize="20" />
+
+        <Button Text="Ir para Gerador de Email" Clicked="GoToEmailGeneratorPageButton_Clicked" />
+    </StackLayout>
+
+</ContentPage>
